@@ -7,10 +7,15 @@ tr{
     width: 1vw;
     
 }
-td{
-    width: calc(1vw/5);
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    border-bottom: 1px solid #ddd;  /* Light grey line like in your image */
     text-align: center;
-    border-bottom: 1px solid grey;
+    padding: 10px;
 }
 body{
     background-color: white;
