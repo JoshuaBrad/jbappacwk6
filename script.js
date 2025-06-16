@@ -4,11 +4,16 @@ function getContacts(){
         return response.json();
     })
     .then(function(data){
-        // displayOutput(data);
-        console.log(data);
+        displayOutput(data);
     })
 }
 
-function displayOutput(){
-
+function displayOutput(data){
+    let output = "<table>";
+    for (a in data) {
+        output += 
+        `<tr>
+        <td>` + data[a] + `</td>
+        </tr>`
+    }
 }
