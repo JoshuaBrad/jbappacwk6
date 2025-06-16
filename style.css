@@ -1,13 +1,15 @@
 td img{
     height: 30px;
+    border-radius: 3px;
 }
 tr{
     width: 1vw;
-    border-bottom: 1px solid grey;
+    
 }
 td{
     width: 0.2vw;
     text-align: center;
+    border-bottom: 1px solid grey;
 }
 body{
     background-color: white;
