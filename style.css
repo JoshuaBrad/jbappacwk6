@@ -3,11 +3,12 @@ td img{
 }
 tr{
     width: 1vw;
-    border: 1px solid red;
+    border: 5px solid red;
 }
 td{
     width: 20%;
     text-align: center;
+    border: 5px solid red;
 }
 body{
     background-color: white;
