@@ -13,7 +13,7 @@ table {
 }
 
 td {
-    border-bottom: 1px solid #ddd;  /* Light grey line like in your image */
+    border-bottom: 1px solid #ddd; 
     text-align: center;
     padding: 10px;
 }
