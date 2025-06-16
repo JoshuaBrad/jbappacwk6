@@ -6,6 +6,7 @@ tr{
 }
 td{
     width: 20%;
+    text-align: center;
 }
 body{
     background-color: white;
