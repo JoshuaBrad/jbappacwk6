@@ -3,6 +3,7 @@ td img{
 }
 tr{
     width: 1vw;
+    border: 1px solid red;
 }
 td{
     width: 20%;
