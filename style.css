@@ -1,18 +1,16 @@
 td img{
-    height: 100px;
+    height: 30px;
 }
-td{
-    border: 2px solid grey;
-    font-weight: bold;
-    font-size: 20pt;
-    color: aqua;
+tr{
+    width: 100%;
 }
 body{
-    background-color: darkgray;
+    background-color: white;
 }
 #header{
     color: white;
     background-color: #007bff;
     text-align: center;
-    
+    padding: 10px;
+    ;
 }
