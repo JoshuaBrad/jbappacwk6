@@ -2,7 +2,10 @@ td img{
     height: 30px;
 }
 tr{
-    width: 100%;
+    width: 1vw;
+}
+td{
+    width: 20%;
 }
 body{
     background-color: white;
