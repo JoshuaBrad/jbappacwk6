@@ -14,8 +14,7 @@ function displayOutput(data){
         output += 
         `<tr>
             <td><img src="${rootPath}controller/uploads/${data[a].avatar}"/></td>
-            <td>${data[a].firstname}</td>
-            <td>${data[a].lastname}</td>
+            <td>${data[a].firstname} ${data[a].lastname}</td>
             <td>${data[a].mobile}</td>
         </tr>`;
     }
