@@ -13,7 +13,7 @@ function displayOutput(data){
     for (a in data) {
         output += 
         `<tr>
-        <td>` + data[a] + `</td>
+            <td><img src="${rootPath}controller/uploads/${data[a].avatar}"/></td>
         </tr>`;
     }
     output+="</table";
