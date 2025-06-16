@@ -14,6 +14,8 @@ function displayOutput(data){
         output += 
         `<tr>
         <td>` + data[a] + `</td>
-        </tr>`
+        </tr>`;
     }
+    output+="</table";
+    document.getElementById("table").innerHTML = output;
 }
