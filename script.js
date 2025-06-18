@@ -17,6 +17,7 @@ function displayOutput(data){
             <td>${data[a].firstname}</td>
             <td>${data[a].lastname}</td>
         </tr>`;
+        console.log(data[a]);
     }
     output+="</table";
     document.getElementById("table").innerHTML = output;
