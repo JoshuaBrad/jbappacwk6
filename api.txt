@@ -1,0 +1,6 @@
+https://mysite.itvarsity.org/api/contactBook/
+
+1. get-contacts
+2. add-contactBook
+3. edit-contactBook
+4. delete-contact
