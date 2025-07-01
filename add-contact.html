@@ -24,10 +24,11 @@
     <script src="config.js"></script>
     <script>
 
-        document.getElementById("submitForm").addEventListener('click', submitForm);
-        document.getElementById("homeLink").addEventListener('click', homeLink);
+        document.getElementById("submitForm").addEventListener('click', submitForm());
+        document.getElementById("homeLink").addEventListener('click', homeLink());
 
         function submitForm(e){
+            alert("HI");
             e.preventDefault();
 
             const form = new formData(document.querySelector('#editForm'));
