@@ -16,7 +16,7 @@
         <input type="text" name="email" id="email"><br/>
         <label for="avatar">Select a file</label>
         <input type="file" name="avatar" id="avatar"><br/>
-        <button type="submit" id="submitForm" onclick="submitForm()">Submit</button>
+        <button type="submit" id="submitForm">Submit</button>
     </form>
     <br/>
     <button type="button" id="homeLink">Home</button>
@@ -24,7 +24,7 @@
     <script src="config.js"></script>
     <script>
 
-        // document.getElementById("submitForm").addEventListener('click', submitForm);
+        document.getElementById("submitForm").addEventListener('click', submitForm);
         document.getElementById("homeLink").addEventListener('click', homeLink);
 
         function submitForm(e){
