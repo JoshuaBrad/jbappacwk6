@@ -31,7 +31,7 @@
             alert("HI");
             e.preventDefault();
 
-            const form = new formData(document.querySelector('#editForm'));
+            const form = new FormData(document.querySelector('#editForm'));
             form.append('apiKey', apiKey);
 
             fetch(rootPath + 'controller/insert-contact/', {
